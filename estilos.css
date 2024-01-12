@@ -66,3 +66,22 @@ body{
     margin-right: 15px;
     margin-top: 25px;
  }
+
+ @media screen and (width<800px) {
+    .conteiner{
+        width: 50%;
+    }
+ }
+
+
+ @media screen and (width<600px) {
+    .conteiner{
+        width: 60%;
+    }
+ }
+
+ @media screen and (width<400px) {
+    .conteiner{
+        width: 80%;
+    }
+ }
